@@ -33,7 +33,7 @@ export class CourseListComponent implements OnInit {
             },
             {
                 id: 3,
-                name: 'Angular: ROUTER',
+                name: 'Angular: Router',
                 imageUrl: '/assets/images/router.png',
                 price: 15.99,
                 code: 'BAS-5111',
