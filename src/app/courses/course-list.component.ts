@@ -18,7 +18,7 @@ export class CourseListComponent implements OnInit {
                 price: 99.99,
                 code: 'XPS-7891',
                 duration: 120,
-                rating: 5.4,
+                rating: 5,
                 releaseDate: 'December, 4, 2019'
             },
             {
@@ -28,8 +28,18 @@ export class CourseListComponent implements OnInit {
                 price: 45.99,
                 code: 'APS-5489',
                 duration: 80,
-                rating: 4,
+                rating: 4.5,
                 releaseDate: 'December, 8, 2019'
+            },
+            {
+                id: 3,
+                name: 'Angular: ROUTER',
+                imageUrl: '/assets/images/router.png',
+                price: 15.99,
+                code: 'BAS-5111',
+                duration: 80,
+                rating: 3.3,
+                releaseDate: 'December, 10, 2019'
             }
         ]
     }
